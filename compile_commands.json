@@ -1,0 +1,17 @@
+[
+ {
+  "directory": "/home/arnaudlcm/xdp",
+  "arguments": [
+   "clang",
+   "-O2",
+   "-g",
+   "-target",
+   "bpf",
+   "-c",
+   "src/protection.c",
+   "-o",
+   "build/protection.o"
+  ],
+  "file": "src/protection.c"
+ }
+]
